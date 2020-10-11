@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/dialogInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/dialogInput"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/importButton"
+            android:layout_width="135dp"
+            android:layout_height="55dp"
+
+            android:text="@string/soundboard_activity_import_sound"
+            android:gravity="center"
+
+            android:layout_below="@id/dialogInput">
+
+        </Button>
+
+        <Button
+            android:id="@+id/recordButton"
+            android:layout_width="135dp"
+            android:layout_height="55dp"
+
+            android:text="@string/soundboard_activity_record_sound"
+            android:gravity="center"
+
+            android:layout_below="@id/dialogInput"
+            android:layout_toRightOf="@id/importButton">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

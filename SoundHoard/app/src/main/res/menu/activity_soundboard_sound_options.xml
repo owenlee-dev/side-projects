@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/favoriteSoundOption"
+        android:title="@string/soundboard_activity_favorite_sound_option" />
+    <item
+        android:id="@+id/editSoundOption"
+        android:title="@string/soundboard_activity_edit_sound_option" />
+    <item
+        android:id="@+id/deleteSoundOption"
+        android:title="@string/soundboard_activity_delete_sound_option" />
+</menu>
