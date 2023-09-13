@@ -1,2 +1,3 @@
 # side-projects
-A collection of side projects I am working on or have worked on
+A collection of old side projects completed througout university
+
